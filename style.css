@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.position-fixed {
+  z-index: 5;
+}
+header {
+  width: 100vw;
+  height: 130vh;
+}
+.nav-item {
+  margin: 0 15px;
+  position: relative;
+}
+.x {
+  cursor: pointer;
+}
+.nav-item a {
+  color: white;
+}
+.nav-item a:hover {
+  color: rgb(0, 255, 0);
+  transition: 0.8s;
+}
+.nav-link a {
+  text-decoration: none;
+  color: white;
+}
+main .container-fluid {
+  padding: 0 !important;
+}
+form a {
+  text-decoration: none;
+  text-align: center;
+}
+h2 span {
+  font-size: 50px;
+  color: rgb(73, 204, 29);
+}
+.drop-data {
+  width: 250px;
+  position: absolute;
+  background-color: rgba(190, 190, 190, 0.628);
+  list-style: none;
+  border-radius: 16px;
+  display: none;
+  padding: 0 !important;
+  transition: 1s;
+}
+.drop-data li {
+  width: 100px;
+  height: 70px;
+  transition: 1s;
+}
+.drop-data li a {
+  display: flex;
+  margin-top: 10px 0;
+  text-decoration: none;
+}
+.drop-data li a h5 {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 18px;
+  position: relative;
+}
+.drop-data .grammar li a h5::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  left: -16px;
+  top: -14px;
+  background-repeat: no-repeat;
+  background-image: url(/Image/logo-drop.webp);
+}
+.drop-data .list li a h5::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: -13px;
+  top: -10px;
+  background-repeat: no-repeat;
+  background-image: url(/image/ico-listening.webp);
+}
+.drop-data .reading li a h5::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: -13px;
+  top: -10px;
+  background-repeat: no-repeat;
+  background-image: url(/image/ico-reading.webp);
+}
+.drop-data .use li a h5::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: -13px;
+  top: -10px;
+  background-repeat: no-repeat;
+  background-image: url(/image/ico-useof.webp);
+}
+.drop-data .writing li a h5::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: -13px;
+  top: -10px;
+  background-repeat: no-repeat;
+  background-image: url(/image/ico-writing.webp);
+}
+.drop-data .exam li a h5::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: -13px;
+  top: -10px;
+  background-repeat: no-repeat;
+  background-image: url(/image/ico-exams.webp);
+}
+.drop-data li a span {
+  width: 100px !important;
+  margin-left: 30px;
+  font-size: 20px;
+  color: rgb(31, 31, 31);
+  transition: 1s;
+}
+.drop-data li a span:hover {
+  color: rgb(8, 255, 136);
+  transition: 0.3s;
+}
+.nav-item:hover .drop-data {
+  display: block;
+}
+.text {
+  top: 50vh;
+}
+form {
+  background-color: rgba(0, 0, 0, 0.523);
+  border-radius: 13px;
+}
+.login {
+  margin: 0 80px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .nav-link {
+    text-align: center;
+    font-size: 15px !important;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .nav-link {
+    text-align: center;
+    font-size: 15px !important;
+    color: black;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .nav-link {
+    font-size: 25px !important;
+    color: black;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .nav-link {
+    font-size: 20px !important;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .nav-link {
+    font-size: 23px !important;
+  }
+}
+main {
+  width: 100%;
+}
+.card:hover {
+  overflow: hidden;
+  transition: 0.9s;
+  border-radius: 20px;
+  box-shadow: 1px 1px 20px -1px;
+}
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #37424e;
+}
+footer .btn {
+  border: none;
+}
+footer .btn:hover {
+  transition: 0.8s;
+}
+footer a {
+  text-decoration: none;
+  color: #3e6b9f;
+  list-style: none;
+}
+footer .col-2 .row a {
+  color: white;
+}
+footer .col-3 button {
+  color: white;
+  border: 1px solid whitesmoke;
+}
+footer .row .col-2 {
+  border-left: 1px solid #3e6b9f;
+  border-right: 1px solid #3e6b9f;
+}
